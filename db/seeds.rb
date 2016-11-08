@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+anon = User.create(username: 'anon', email: 'anon@g.com', password: '123456', gender: 'female', city: 'nyc')
+post = Post.create(title: 'Title', content: 'Dummy Content')
